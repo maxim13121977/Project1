@@ -26,7 +26,7 @@ FER-2013 ([Kaggle](https://www.kaggle.com/datasets/msambare/fer2013)): 35 887 и
 
 **Разделение:** test — официальный; validation — 15 % официального train со стратификацией по классу (`random_state = 42`). Итог: train — 22 874, validation — 4 037, test — 7 178 изображений. Точные копии между частями исключены. Ограничение: в наборе нет ID людей, поэтому связи между разными фотографиями одного человека не проверялись.
 
-**Файлы:** ноутбук [`notebooks/02task.ipynb`](notebooks/02task.ipynb), функция обработки [`src/image_preprocessing.py`](src/image_preprocessing.py), описание разделения [`data/split_description.txt`](data/split_description.txt). Сами данные в репозиторий не добавлены, их нужно скачать с Kaggle.
+**Файлы:** ноутбук [`notebooks/02task.ipynb`](notebooks/02task.ipynb)
 
 ![Примеры изображений по классам](images/class_examples.png)
 
